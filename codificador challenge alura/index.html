@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador/Decodificador - Challenge</title>
+    <link rel="icon" href="images/alura.svg" type="image/x-icon"> 
+    <!--Icone de identificação da página,com o logo alura -->
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+
+    
+
+    <script src="js/script.js" defer></script>
+
+    <!--Link arquivo javascript,utlizando "defer" para carregar o html antes dos arquivos.js -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Icone Alura com direcionamento para os cursos oferidos -->
+        <a id="alura" href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">
+            <img src="images/alura.svg" alt="alura">
+        </a>
+
+        <h1 id="titulo">Challenge Alura</h1>
+    
+    </header>
+
+    <main>
+
+        <!-- Criando uma section para interação do usuário -->
+        <section id="campo-inserir">
+            <textarea name="mensagem" id="inserir-textarea" placeholder="Digite o texto aqui"></textarea>
+
+            <p id="ponto-exclamacao">
+                <img src="images/ponto exclamacao.svg" alt="ponto exclamacao">
+                Apenas letras minúsculas sem acentos.
+            </p>
+
+            <!-- divisão de classe para alinhamento dos botões no campo e uso -->
+            <div class="botoes">
+                <button id="btn-codificar">Criptografar</button>
+                <button id="btn-decodificar">Descriptografar</button>
+            </div>
+        </section>
+
+        <!-- section para o direcionamento da mensagem criptografada/descriptografada a ser exibida -->
+        <section id="campo-resposta">
+
+            <img class="img-buscando" src="images/buscando.svg" alt="Desenho buscando texto com uma lupa">
+
+            <textarea name="resposta" id="resposta-textarea" placeholder="Nenhuma para ser exibida."
+                disabled></textarea>
+                <!-- Textarea desativada,evita edição da mensagem criptografada -->
+
+            <button id="btn-copiar" disabled>Copiar texto</button>
+            <!-- Botão ativado somente após processo codificar/descodificar a mensagem -->
+  </section>
+
+    </main>
+
+    <footer>
+        <section id="meus-creditos">
+
+            
+            <p>Desenvolvido por: José Alexandre &reg;</p>
+
+        </section>
+
+        <section id="redes">
+            
+            <!-- Div´s icones redes -->
+            <div id="redes">
+
+                <!-- GitHub link perfil -->
+                <a id="icone-github" href="https://github.com/josejardim" target= "blank"
+                    rel="noopener noreferrer">
+                    <img class="rede" src="images/Icone GitHub.svg" alt="GitHub">
+                </a>
+
+                <!-- Icone do Linkedin com link para o meu perfil -->
+                <a id="linkedin" href="https://www.linkedin.com/in/alexandre-souza-98291238/"
+                    target="_blank" rel="noopener noreferrer">
+                    <img class="rede" src="images/Icone Linkedin.svg" alt="LinkedIn">
+                </a>
+                
+            </div>
+        </section>
+       
+
+        </footer>
+
+</body>
+
+</html>

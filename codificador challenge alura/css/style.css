@@ -1,0 +1,203 @@
+/* Estilo header */
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    color: #204051;
+    font-family:  sans-serif;
+} 
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+#alura {
+    position: absolute;
+    left: 50px;
+}
+
+/* Estilo campos de texto / Conteudo principal */
+
+main {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#campo-inserir , 
+#campo-resposta {
+    font-size: 32px;
+    width: 600px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    align-items: center;
+    margin: 10px;
+}
+
+#campo-inserir {
+    border: 1px solid #84A9AC;
+    box-shadow: 0 0 20px #84A9AC;
+    overflow: hidden;
+}
+
+#campo-resposta {
+    background-color: #84A9AC;
+    box-shadow: 0 0 20px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.img-buscando {
+width: 335px;
+height: 305px;
+margin: 5px
+}
+
+/* classe de estilo para javascript, suprimindo o elemento da página */
+.invisivel {
+    display: none;
+}
+
+#inserir-textarea {
+    padding: 15px;
+    width: 100%;
+    height: 350px;
+    font-size: 32px;
+    color: #204051;
+    background: none;
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+#resposta-textarea {
+    padding: 15px;
+    width: 100%;
+    height: 350px;
+    font-size: 32px;
+    color: #071A52;
+    background: none;
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+#inserir-textarea:focus {
+    outline: none;
+    border: 0.5px solid #20405144;
+    border-radius: 15px;
+}
+
+#inserir-textarea::placeholder {
+    color: #204051;
+}
+
+#resposta-textarea::placeholder {
+    color: #071A52;
+}
+
+#ponto-exclamacao {
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex; 
+    gap: 5px;   
+    align-items: center;
+}
+
+/* Estilo para os botões */
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #0F4C81;
+    border: none;
+    color: #CAE8D5;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #000000;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 10px 10px 10px #000000;
+    filter: saturate(150%);
+    color: #ffffff;
+}
+
+button:active {
+    transform: scale(0.9);
+    box-shadow: 1px 1px 1px #000000;
+}
+
+button:disabled {
+    display: none;
+}
+
+/* Estilo do scroolbar e seleção de texto */
+::-webkit-scrollbar {
+    background-color: #84A9AC;
+    border-radius: 50px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: #204051;
+}
+
+/* Ao selecionar o texto */
+::selection {
+    background-color: #17254d;
+    color: #84A9AC;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #071A52;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#redes {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.rede {
+    transition: 0.3s;
+}
+
+.rede:hover {
+    transform: scale(1.1);
+}
