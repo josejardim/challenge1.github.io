@@ -46,4 +46,4 @@ Por exemplo:
 - HTML, CSS e JavaScript
 
 ## Agradecimentos: 
-  <p>Gostaria de agradecer a Alura e a Oracle - ONE pelo incentivo e pelo excelente programa que oferecem, de forma profunda e gratuita, fomentando cada vez mais e mais a área de técnologia.</p>
+  <p>Gostaria de agradecer a Alura e a Oracle - ONE pelo incentivo e pelo excelente programa que oferecem, de forma profunda e gratuita, fomentando cada vez mais e mais a área de tecnologia.</p>
