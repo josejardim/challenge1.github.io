@@ -4,7 +4,7 @@
 
 
   
- <h3 align="center">Encriptador de Textos, por: <a href="https://www.linkedin.com/in/alexandre-souza-98291238/" target="_blank">José Alexandre</a></h3>
+ <h3 align="center">Encriptador de Textos, por: <a href="https://www.linkedin.com/in/jos%C3%A9-alexandre-98291238/" target="_blank">José Alexandre</a></h3>
  <p align="center">
     <a href="https://josejardim.github.io/codificador%20challenge%20alura/" target="_blank">Página do Encriptador de Textos</a>
      <br/>
